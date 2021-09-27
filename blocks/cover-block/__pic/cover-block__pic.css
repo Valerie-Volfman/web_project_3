@@ -1,0 +1,14 @@
+.cover-block__pic {
+    display: flex;
+    max-width: 1184px;
+    justify-content: center;
+    align-items: center;
+    background: #2A2C2F;
+    opacity: 30%;
+    z-index: 1;
+}
+
+.cover-block__pic:hover {
+    opacity: 80%;
+    transition: 0s;
+}

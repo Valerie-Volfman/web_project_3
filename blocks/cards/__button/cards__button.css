@@ -1,0 +1,20 @@
+.cards__button {
+    display: flex;
+    max-width: 248px;
+    height: 48px;
+    background-color: #0278FE;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: left;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #FFFFFF;
+}
+
+.cards__button:active {
+    background-color: #0063D2;
+    transition: 0s;
+}

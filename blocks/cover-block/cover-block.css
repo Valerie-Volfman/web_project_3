@@ -1,0 +1,18 @@
+.cover-block {
+    margin: 92px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 744) and (min-width) {
+    .cover-block {
+        margin: 88px 0;
+    }
+}
+
+@media screen and (max-width: 297px) {
+    .cover-block {
+        margin: 64px 0;
+    }
+}

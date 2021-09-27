@@ -1,0 +1,19 @@
+.intro {
+    text-align: left;
+    margin: 92px auto 0 148px;
+    display: grid;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 744px) {
+    .intro {
+        margin: 92px 24px 0 24px;
+    }
+}
+
+@media screen and (max-width: 296px) {
+    .intro {
+        margin: 92px 16px 0 16px;
+    }
+}

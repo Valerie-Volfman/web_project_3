@@ -1,0 +1,23 @@
+.header__pic {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin: 64px 148px 0 148px;
+}
+
+@media screen and (max-width: 984px) {
+    .header__pic {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .header__pic {
+        margin: 36px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 296px) {
+    .header__pic {
+        margin: 40px 0 0 0;
+    }
+}
