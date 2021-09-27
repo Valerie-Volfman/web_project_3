@@ -24,10 +24,9 @@
 @import url(../blocks/cards/__pic/cards__pic.css);
 @import url(../blocks/cards/__paragraph/cards__paragraph.css);
 @import url(../blocks/cards/__button/cards__button.css);
-@import url(../blocks/cards/__button-text/cards__button-text.css);
 @import url(../blocks/cover-block/cover-block.css);
 @import url(../blocks/cover-block/__pic/cover-block__pic.css);
 @import url(../blocks/cover-block/__title/cover-block__title.css);
 @import url(../blocks/cover-block/__text/cover-block__text.css);
 @import url(../blocks/cover-block/__button/cover-block__button.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/footer-copyright.css);
