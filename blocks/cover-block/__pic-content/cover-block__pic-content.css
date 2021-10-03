@@ -1,0 +1,13 @@
+.cover-block__pic-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 656px;
+    height: 254px;
+    margin: 243px auto 0 auto;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    z-index: 2;
+}

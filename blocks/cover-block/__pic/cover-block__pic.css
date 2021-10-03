@@ -1,14 +1,22 @@
 .cover-block__pic {
-    display: flex;
-    max-width: 1184px;
-    justify-content: center;
-    align-items: center;
-    background: #2A2C2F;
-    opacity: 30%;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding-bottom: 100%;
+    height: auto;
+    opacity: 0.3;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
     z-index: 1;
 }
 
 .cover-block__pic:hover {
-    opacity: 80%;
+    opacity: 0.8;
     transition: 0s;
+} 
+
+@media screen and (max-width: 768px) {
+    .cover-block__pic {
+        min-width: 100%;
+    }
 }

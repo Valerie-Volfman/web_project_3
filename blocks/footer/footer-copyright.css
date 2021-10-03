@@ -1,8 +1,9 @@
-.footer__copyright {
+.footer-copyright {
+    padding: 0;
+    margin-bottom: 18px;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
     font-weight: 400;
     color: #FFFFFF;
-    margin-bottom: 24px;
 }

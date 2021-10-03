@@ -11,8 +11,9 @@
     max-width: calc(483px * 3);
 }
 
-@media screen and (max-width: 744px) {
+@media screen and (min-width: 744px) {
     .cards__container {
         row-gap: 28px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
