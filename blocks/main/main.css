@@ -1,5 +1,10 @@
 .main {
     display: grid;
     flex-direction: column;
+    margin: 0 auto;
     height: auto;
+    max-width: 100%;
+    min-width: 320px;
+    justify-content: center;
+    align-items: center;
 }

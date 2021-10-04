@@ -9,6 +9,8 @@
 @media screen and (max-width: 744px) {
     .header__title {
         margin: 88px auto 0 auto;
+        font-size: calc(40px + (92 - 40) * ((100vw - 297px) / (744 - 320) ));
+        line-height: calc(44px + (96 - 44) * ((100vw - 297px) / (744 - 320) ));
     }
 }
 

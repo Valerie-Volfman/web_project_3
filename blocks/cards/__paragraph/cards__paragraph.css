@@ -1,5 +1,5 @@
 .cards__paragraph {
-    margin: 0 auto 0 0;
+    margin: 0 auto 0 auto;
     padding: 0;
     font-size: 18px;
     line-height: 29.34px;
@@ -10,8 +10,13 @@
 
 @media screen and (max-width: 744px) and (min-width: 296px) {
     .cards__paragraph {
-        max-width: calc(352px + (484 - 352) * ((100vw - 296px) / (744 - 296) ));
         font-size: 16px;
         line-height: 26.08px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .cards__paragraph {
+        margin: 0 16px;
     }
 }

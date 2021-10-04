@@ -21,3 +21,9 @@
         line-height: 35px;
     }
 }
+
+@media screen and (max-width: 520px) {
+    .cards__name {
+        margin: 0 16px;
+    }
+}

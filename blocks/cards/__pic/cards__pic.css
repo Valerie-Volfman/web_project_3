@@ -1,11 +1,12 @@
 .cards__pic {
     max-width: 460px;
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
 }
 
-@media screen and (max-width: 744px) and (min-width: 297px) {
+@media screen and (max-width: 768px) and (min-width: 320px) {
     .cards__pic {
-        max-width: calc(340px + (460 - 340) * ((100vw - 297px) / (744 - 297) ));
+        max-width: calc(320px + (460 - 320) * ((100vw - 320px) / (768 - 320) ));
     }
 }
 

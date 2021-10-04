@@ -7,8 +7,6 @@
     column-gap: 48px;
     align-content: center;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(auto, 484px));
-    max-width: calc(483px * 3);
 }
 
 @media screen and (min-width: 744px) {
