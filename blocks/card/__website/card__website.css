@@ -1,0 +1,23 @@
+.card__website {
+    max-width: 456px;
+    margin: 0 auto 0 0;
+    align-self: end;
+}
+
+@media screen and (max-width: 768px) {
+    .card__website {
+        max-width: calc(316px + (456 - 316) * ((100vw - 320px) / (768 - 320) ));
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .card__website {
+        margin: 0 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card__website {
+        max-width: 320px;
+    }
+}

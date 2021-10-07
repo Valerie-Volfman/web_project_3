@@ -5,10 +5,10 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 744px) and (min-width: 297px) {
+@media screen and (max-width: 768px) {
     .intro__title {
-        font-size: calc(32px + (54 - 32) * ((100vw - 297px) / (744 - 296) ));
-        line-height: calc(35px + (54 - 35) * ((100vw - 297px) / (744 - 296) ));
+        font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (768 - 320) ));
+        line-height: calc(35px + (54 - 35) * ((100vw - 320px) / (768 - 320) ));
     }
 }
 

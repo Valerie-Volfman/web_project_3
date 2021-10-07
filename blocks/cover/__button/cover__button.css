@@ -1,0 +1,36 @@
+.cover__button {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 137px;
+    height: 48px;
+    margin: 32px auto 0 auto;
+    background-color: #0278FE;
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+    align-self: center;
+    border-radius: 4px;
+}
+
+.cover__button:hover {
+    background-color: #0063D2;
+}
+
+.cover__button:active {
+    background-color: #0063D2;
+    transition: 0s;
+}
+
+@media screen and (max-width: 600px) {
+    .cover__button {
+        margin-top: 16px;
+    }
+}

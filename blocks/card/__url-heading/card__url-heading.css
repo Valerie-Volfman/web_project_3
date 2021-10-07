@@ -1,0 +1,17 @@
+.card__url-heading {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 8px;
+    font-size: 12px;
+    line-height: 14.52px;
+    font-weight: 400;
+    color: #AAAAAA;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+    .card__url-heading {
+        line-height: 12px;
+    }
+}

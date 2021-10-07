@@ -1,0 +1,25 @@
+.card {
+    display: grid;
+    min-width: 288px;
+    height: auto;
+    margin: 93px auto 0 auto;
+    row-gap: 40px;
+    column-gap: 48px;
+    align-content: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        row-gap: 28px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 28px;
+        margin-top: 72px;
+    }
+}
+
+@media screen and (max-width: 743px) {
+    .card {
+        margin-top: 48px;
+    }
+}
