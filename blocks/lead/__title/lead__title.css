@@ -8,11 +8,13 @@
     width: 100%;
 }
 
-@media screen and (max-width: 744px) {
+@media screen and (max-width: 768px) {
     .lead__title {
         margin: 88px auto 0 auto;
-        font-size: calc(40px + (92 - 40) * ((100vw - 320px) / (744 - 320) ));
-        line-height: calc(44px + (96 - 44) * ((100vw - 320px) / (744 - 320) ));
+        font-size: calc(40px + (92 - 40) * ((100vw - 320px) / (768 - 320) ));
+        line-height: calc(44px + (96 - 44) * ((100vw - 320px) / (768 - 320) ));
+        max-width: 720px;
+        width: 80%;
     }
 }
 
