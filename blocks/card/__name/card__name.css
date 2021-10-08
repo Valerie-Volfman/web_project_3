@@ -6,6 +6,12 @@
     font-weight: 900;
 }
 
+@media screen and (max-width: 1280px) and (min-width: 767px) {
+    .card__name {
+        max-width: calc(340px + (460 - 340) * ((100vw - 767px) / (1280 - 767) ));
+    }
+}
+
 @media screen and (max-width: 768px) and (min-width: 320px) {
     .card__name {
         max-width: calc(288px + (340 - 288) * ((100vw - 320px) / (768 - 320) ));
