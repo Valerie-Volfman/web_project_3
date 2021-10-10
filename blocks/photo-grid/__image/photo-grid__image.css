@@ -1,3 +1,4 @@
 .photo-grid__image {
     justify-self: center;
+    width: 100%;
 }
