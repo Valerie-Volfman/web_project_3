@@ -1,22 +1,23 @@
 .lead__text {
-    margin: 32px auto 0 auto;
-    font-size: 30px;
-    line-height: 36px;
-    max-width: 720px;
-    font-weight: 400;
+  margin: 32px auto 0 auto;
+  font-size: 30px;
+  line-height: 36px;
+  max-width: 720px;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
-    .lead__text {
-        font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (768 - 320) ));
-        line-height: calc(20px + (36 - 20) * ((100vw - 320px) / (768 - 320) ));
-    }
+  .lead__text {
+    font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (768 - 320)));
+    line-height: calc(20px + (36 - 20) * ((100vw - 320px) / (768 - 320)));
+  }
 }
 
 @media screen and (max-width: 384px) {
-    .lead__text {
-        font-size: 16px;
-        line-height: 20px;
-        max-width: 288px;
-    }
+  .lead__text {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 288px;
+  }
 }

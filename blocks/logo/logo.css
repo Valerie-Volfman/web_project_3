@@ -1,14 +1,14 @@
 .logo {
-    margin: 34px auto 0 auto;
-    max-width: 271px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 34px auto 0 auto;
+  max-width: 271px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 320px) {
-    .logo {
-        margin-top: 20px;
-        max-width: 200px;
-    }
+  .logo {
+    margin-top: 20px;
+    max-width: 200px;
+  }
 }

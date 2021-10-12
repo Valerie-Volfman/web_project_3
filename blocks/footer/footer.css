@@ -1,10 +1,15 @@
 .footer {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    left: 0;
-    height: auto;
-    justify-content: center;
-    margin-bottom: 24px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 165px;
+  height: 16px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    height: 14px;
+  }
 }

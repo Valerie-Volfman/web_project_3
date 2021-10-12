@@ -1,44 +1,44 @@
 .cover {
-    display: flex;
-    position: relative;
-    min-width: 100%;
-    background-image: url("../../images/cover-pic.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 92px auto;
-    height: 740px;
-    justify-content: center;
-    align-content: center;
-    z-index: 1;
+  display: flex;
+  position: relative;
+  min-width: 100%;
+  background-image: url("../../images/cover-pic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 92px auto 92px auto;
+  min-height: 740px;
+  justify-content: center;
+  align-content: center;
+  z-index: 1;
 }
 
 .cover::before {
-    content: '';
-    background: #2A2C2F;
-    opacity: 0.2;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transition: 0.3s;
-    z-index: 3;
-  }
-  
-  .cover:hover::before {
-    opacity: 0.7;
-  }
+  content: "";
+  background: #2a2c2f;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+  z-index: 3;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
+}
 
 @media screen and (max-width: 768px) {
-    .cover {
-      max-width: 100%;
-        margin-top: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320) ));
-        height: calc(256px + (746 - 256) * ((100vw - 320px) / (768 - 320) ));
-    }
+  .cover {
+    max-width: 100%;
+    margin-top: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
+    min-height: 746px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    height: 256px;
+    min-height: 256px;
   }
 }

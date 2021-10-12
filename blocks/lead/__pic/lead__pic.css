@@ -1,21 +1,21 @@
 .lead__pic {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    margin: 64px auto 0 auto;
-    align-self: center;
-    justify-self: center;
-    width: 100%;
-    max-width: 984px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin: 64px auto 0 auto;
+  align-self: center;
+  justify-self: center;
+  width: 100%;
+  max-width: 984px;
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
-    .lead__pic {
-        margin-top: calc(36px + (40 - 36) * ((100vw - 320px) / (768 - 320) ));
-    }
+  .lead__pic {
+    margin-top: calc(36px + (40 - 36) * ((100vw - 320px) / (768 - 320)));
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .lead__pic {
-        margin: 40px 0 0 0;
-    }
+  .lead__pic {
+    margin: 40px 0 0 0;
+  }
 }

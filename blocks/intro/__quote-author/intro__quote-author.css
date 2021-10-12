@@ -1,10 +1,10 @@
 .intro__quote-author {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 34px;
-    margin: 10px 0 0 auto;
-    text-align: right;
-    align-self: flex-end;
-    justify-self: right;
-    max-width: 690px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  margin: 10px 0 0 auto;
+  text-align: right;
+  align-self: flex-end;
+  justify-self: right;
+  max-width: 690px;
 }
