@@ -7,6 +7,7 @@
 @media screen and (max-width: 1280px) and (min-width: 769px) {
     .card__pic {
        max-width: calc(340px + (460 - 340) * ((100vw - 769px) / (1280 - 769) ));
+       width: 100%;
     }
 }
 

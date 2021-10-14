@@ -3,13 +3,6 @@
   margin: 0;
   padding: 0;
   width: 165px;
-  height: 16px;
   justify-content: center;
   margin-bottom: 24px;
-}
-
-@media screen and (max-width: 320px) {
-  .footer {
-    height: 14px;
-  }
 }
