@@ -17,13 +17,13 @@
 
 @media screen and (max-width: 768px) {
   .places__cards {
-    margin-top: 16px;
+    margin-top: 88px;
   }
 }
 
 @media screen and (max-width: 388px) {
   .places__cards {
-    padding: 16px 0 0 0;
+    padding: 64px 0 0 0;
     margin: 0;
   }
 }

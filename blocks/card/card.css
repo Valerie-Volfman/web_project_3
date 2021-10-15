@@ -5,10 +5,13 @@
   height: auto;
   grid-template-columns: 460px 1fr;
   margin: 80px auto 0 auto;
-  row-gap: 48px;
   column-gap: 40px;
   align-content: center;
   justify-content: center;
+}
+
+.card:first-of-type {
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1270px) {
@@ -19,23 +22,22 @@
 
 @media screen and (max-width: 768px) {
   .card {
-    row-gap: 48px;
     column-gap: 28px;
     max-width: 720px;
     margin-top: 72px;
+    grid-template-columns: 340px 352px;
   }
 }
 
 @media screen and (max-width: 743px) {
   .card {
     grid-template-columns: repeat(1, 1fr);
-    margin-top: 48px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .card {
     max-width: 288px;
-    row-gap: 30px;
+    margin-top: 48px;
   }
 }

@@ -10,9 +10,15 @@
   }
 }
 
+@media screen and (max-width: 743px) {
+  .card__website {
+    margin-top: 30px;
+  }
+}
+
 @media screen and (max-width: 520px) {
   .card__website {
-    margin: 0 16px;
+    margin: 30px 16px 0 16px;
   }
 }
 

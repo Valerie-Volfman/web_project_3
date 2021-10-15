@@ -5,7 +5,7 @@
   background-image: url("../../images/cover-pic.png");
   background-position: center;
   background-repeat: no-repeat;
-  margin: 92px auto 92px auto;
+  margin: 92px auto;
   min-height: 740px;
   justify-content: center;
   align-content: center;
@@ -32,7 +32,7 @@
 @media screen and (max-width: 768px) {
   .cover {
     max-width: 100%;
-    margin-top: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
+    margin: 92px auto 88px auto;
     min-height: 746px;
   }
 }
@@ -40,6 +40,6 @@
 @media screen and (max-width: 320px) {
   .cover {
     min-height: 256px;
-    margin: 64px auto 64px auto;
+    margin: 64px auto;
   }
 }

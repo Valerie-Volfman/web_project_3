@@ -6,8 +6,15 @@
   max-width: 690px;
 }
 
+@media screen and (max-width: 768px) {
+  .intro__quote {
+    max-width: 720px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .intro__quote {
     line-height: 30px;
+    max-width: 288px;
   }
 }
